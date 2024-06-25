@@ -4,7 +4,7 @@ from nonebot.adapters import Bot, Event
 from nonebot.typing import T_State
 from nonebot.adapters.onebot.v11 import GroupMessageEvent,Bot,Message,MessageSegment,Event
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyCzTgoCUzbJ60sVEYCgDG1QlUaKxCov-vg")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel('gemini-1.5-pro')
 
